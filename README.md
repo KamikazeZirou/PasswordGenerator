@@ -1,11 +1,11 @@
 # PasswordGenerator
 
-PasswordGenerator is command line tool for generating password.
+PasswordGenerator is tool for generating password.
 
 ## Requirements
 python3
 
-## Usage
+## Usage(CUI)
 Run command from command line.
 
     $ python password_generator.py
@@ -16,7 +16,7 @@ Default settings is as follows.
  - Symbols are printable characters other than alphabets and digits
 - The length of generated password is 10
 
-## Examples
+## Examples(CUI)
 If you would like to set password length to 12, run following command.
 
     $ python password_generator.py -l 12
@@ -26,3 +26,9 @@ If you would like to change symbols contained in password, run following command
 
     $ python password_generator.py -s '_=&'
     X&7n_HfdGZ
+
+
+## Usage(GUI)
+Run command from command line.
+
+    $ python password_generator_gui.py
