@@ -33,6 +33,7 @@ def generate_password(length=10, symbol=""):
     password = []
     password += random.choice(letters)
     password += random.choice(captials)
+    password += random.choice(digits)
     if symbol:
         password += random.choice(symbol)
 
